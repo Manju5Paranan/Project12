@@ -26,9 +26,12 @@ class ObjtoC{
         {
             Box b1=new Box(12,3,4);
             Box b2=new Box(b1);
+            Box b3=new Box(b1);
             double v=b1.volume();
             System.out.println(v);
             v=b2.volume();
+            System.out.println(v);
+             v=b3.volume();
             System.out.println(v);
         }
     }
