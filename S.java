@@ -3,7 +3,7 @@ class A{
     A(int i,int c)
     {
         a=i;
-        b=c;;
+        b=c;
     }
         A inc()
         {
