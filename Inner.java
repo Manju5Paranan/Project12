@@ -1,7 +1,7 @@
-class O
+class Outer
 {
-static int a=5;
-    static class I{
+private int a=5;
+     class Inner1{
         void display()
         {
             System.out.println(a);
@@ -11,8 +11,8 @@ static int a=5;
 class Inner{
     public static void main(String[] args)
     {
-       // O o=new O();
-        O.I i=new O.I();
+       Outer obj=new Outer();
+        Outer.Inner1 i= obj.new Inner1();
         i.display();
     }
 }
